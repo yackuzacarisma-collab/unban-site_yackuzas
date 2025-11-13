@@ -1,0 +1,142 @@
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+MESSAGES = {
+    "permanent": """
+Hello WhatsApp,
+I have a complaint about my account being blocked because I have never violated anything on WhatsApp. When I open the WhatsApp application, a message appears: "This account is not allowed to use WhatsApp." I have never violated the terms and conditions of WhatsApp. I beg you to unblock my account immediately. My number is: {phone_number}.
+Thank you, WhatsApp team.
+""",
+    "temporary": """
+Hi WhatsApp,
+My WhatsApp account has been banned. Please unblock it as soon as possible. It's urgent because I use it for work. My number is: {phone_number}.
+Thank you.
+"""
+}
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    if request.method == "POST":
+        phone_number = request.form.get("phone_number")
+        unban_type = request.form.get("unban_type")
+        message = MESSAGES.get(unban_type, "").format(phone_number=phone_number)
+        return f"""
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Demande de Débanissement</title>
+            <style>
+                body {{
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f9;
+                    margin: 0;
+                    padding: 20px;
+                }}
+                h1 {{
+                    color: #333;
+                    text-align: center;
+                }}
+                form {{
+                    max-width: 500px;
+                    margin: 0 auto;
+                    background: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }}
+                label, input, button {{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }}
+                input, button {{
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }}
+                button {{
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }}
+                button:hover {{
+                    background-color: #45a049;
+                }}
+            </style>
+        </head>
+        <body>
+            <h1>Demande de Débanissement WhatsApp</h1>
+            <form method="POST">
+                <label>Numéro de téléphone :</label>
+                <input type="text" name="phone_number" required>
+                <label>Type de débanissement :</label>
+                <input type="radio" name="unban_type" value="permanent" required> Unban permanent<br>
+                <input type="radio" name="unban_type" value="temporary"> Unban temporaire<br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </body>
+        </html>
+        """
+    return f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Demande de Débanissement</title>
+        <style>
+            body {{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 0;
+                padding: 20px;
+            }}
+            h1 {{
+                color: #333;
+                text-align: center;
+            }}
+            form {{
+                max-width: 500px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }}
+            label, input, button {{
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }}
+            input, button {{
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }}
+            button {{
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }}
+            button:hover {{
+                background-color: #45a049;
+            }}
+        </style>
+    </head>
+    <body>
+        <h1>Demande de Débanissement WhatsApp</h1>
+        <form method="POST">
+            <label>Numéro de téléphone :</label>
+            <input type="text" name="phone_number" required>
+            <label>Type de débanissement :</label>
+            <input type="radio" name="unban_type" value="permanent" required> Unban permanent<br>
+            <input type="radio" name="unban_type" value="temporary"> Unban temporaire<br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </body>
+    </html>
+    """
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
