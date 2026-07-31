@@ -1,2 +1,40 @@
-# 𝖚𝖓𝖇𝖆𝖓𝖓𝖊𝖉 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕 𝖇𝖞 𝖑𝖔𝖗𝖉 𝖞𝖆𝖈𝖐𝖚𝖟𝖆 
-site web Flask pour soumettre des demandes d𝖊 𝖉𝖊́𝖇𝖆𝖓𝖎𝖘𝖘𝖊𝖒𝖊𝖓𝖙 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕. 𝕻𝖊𝖗𝖒𝖊𝖙 𝖆𝖚𝖝 𝖚𝖙𝖎𝖑𝖎𝖘𝖆𝖙𝖊𝖚𝖗𝖘 𝖉𝖊 𝖈𝖍𝖔𝖎𝖘𝖎𝖗 𝖊𝖓𝖙𝖗𝖊 𝖚𝖓 𝖉𝖊́𝖇𝖆𝖓𝖎𝖘𝖘𝖊𝖒𝖊𝖓𝖙 𝖕𝖊𝖗𝖒𝖆𝖓𝖊𝖓𝖙 𝖔𝖚 𝖙𝖊𝖒𝖕𝖔𝖗𝖆𝖎𝖗𝖊 𝖊𝖙 𝖌𝖊́𝖓𝖊̀𝖗𝖊 𝖆𝖚𝖙𝖔𝖒𝖆𝖙𝖎𝖖𝖚𝖊𝖒𝖊𝖓𝖙 𝖚𝖓 𝖒𝖊𝖘𝖘𝖆𝖌𝖊 𝖉𝖊 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 𝖆̀ 𝖊𝖓𝖛𝖔𝖞𝖊𝖗 𝖆̀ 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕. 𝕯𝖊́𝖛𝖊𝖑𝖔𝖕𝖕𝖊́ 𝖆𝖛𝖊𝖈 𝕻𝖞𝖙𝖍𝖔𝖓 𝖊𝖙 𝕱𝖑𝖆𝖘𝖐.
+# 👑 LORD DÉMON YACKUZA
+
+> **Le pouvoir corrompt, et l'obscurité consume.**
+>
+> **Unbanned by Lord Démon Yackuza**
+
+---
+
+## 🌑 À propos
+
+Bienvenue sur le site officiel de **Lord Démon Yackuza**.
+
+Ce site présente mes projets, mes services et mes réalisations dans un univers sombre, moderne et élégant.
+
+---
+
+## 🚀 Technologies utilisées
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Contenu du projet
+
+```
+index.html
+style.css
+script.js
+README.md
+```
+
+---
+
+## ⚖️ Copyright
+
+© 2026 Lord Démon Yackuza
+
+Tous droits réservés.
