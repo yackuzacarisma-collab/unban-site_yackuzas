@@ -1,2 +1,2 @@
-# unban-site_yackuzas
-Site web Flask pour soumettre des demandes de débanissement WhatsApp. Permet aux utilisateurs de choisir entre un débanissement permanent ou temporaire et génère automatiquement un message de support à envoyer à WhatsApp. Développé avec Python et Flask.
+# 𝖚𝖓𝖇𝖆𝖓𝖓𝖊𝖉 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕 𝖇𝖞 𝖑𝖔𝖗𝖉 𝖞𝖆𝖈𝖐𝖚𝖟𝖆 
+site web Flask pour soumettre des demandes d𝖊 𝖉𝖊́𝖇𝖆𝖓𝖎𝖘𝖘𝖊𝖒𝖊𝖓𝖙 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕. 𝕻𝖊𝖗𝖒𝖊𝖙 𝖆𝖚𝖝 𝖚𝖙𝖎𝖑𝖎𝖘𝖆𝖙𝖊𝖚𝖗𝖘 𝖉𝖊 𝖈𝖍𝖔𝖎𝖘𝖎𝖗 𝖊𝖓𝖙𝖗𝖊 𝖚𝖓 𝖉𝖊́𝖇𝖆𝖓𝖎𝖘𝖘𝖊𝖒𝖊𝖓𝖙 𝖕𝖊𝖗𝖒𝖆𝖓𝖊𝖓𝖙 𝖔𝖚 𝖙𝖊𝖒𝖕𝖔𝖗𝖆𝖎𝖗𝖊 𝖊𝖙 𝖌𝖊́𝖓𝖊̀𝖗𝖊 𝖆𝖚𝖙𝖔𝖒𝖆𝖙𝖎𝖖𝖚𝖊𝖒𝖊𝖓𝖙 𝖚𝖓 𝖒𝖊𝖘𝖘𝖆𝖌𝖊 𝖉𝖊 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 𝖆̀ 𝖊𝖓𝖛𝖔𝖞𝖊𝖗 𝖆̀ 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕. 𝕯𝖊́𝖛𝖊𝖑𝖔𝖕𝖕𝖊́ 𝖆𝖛𝖊𝖈 𝕻𝖞𝖙𝖍𝖔𝖓 𝖊𝖙 𝕱𝖑𝖆𝖘𝖐.
